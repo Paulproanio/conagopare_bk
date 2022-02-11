@@ -29,7 +29,7 @@ public class fallecido {
 	
 	private String nombreFallecido;
 	@Basic
-	@CreationTimestamp
+	//@CreationTimestamp
 	private Date fechFallecimiento;
 	
 	@ManyToOne
